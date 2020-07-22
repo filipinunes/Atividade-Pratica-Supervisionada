@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: black;
+}
+
+nav {
+    margin: 0 150px;
+
+    display: flex;
+    flex-direction: row;
+
+    height: 50px;
+
+    background-color: #fff;
+
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    list-style: none;
+
+}
+
+nav li:hover{
+    background: #eee;
+    
+    cursor: pointer;
+}
+
+nav li.nav-1 {
+    margin-right: auto;
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: none;
+    
+    padding: 25px 20px;
+}
+
+
+nav li select {
+    padding-left: 20px;
+
+    border: none;
+
+    height: 50px;
+
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+    /*background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+    /*background-position: 218px center;  /*Posição da imagem do background*/
+    width: 125px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height:50px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+}
+
+nav li select:hover {
+    border: none;
+
+    background-color: #eee;
+    
+    cursor: pointer;
+
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+    /*background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+    /*background-position: 218px center;  /*Posição da imagem do background*/
+}
+
+nav li select option {
+    line-height: 50px;
+
+    border: none;
+
+    padding: 25px 0;
+}
+
+nav li select option a{
+    background-color: black;
+
+    color: white;
+}

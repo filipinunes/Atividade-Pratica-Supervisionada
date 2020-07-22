@@ -1,0 +1,90 @@
+$("#Categorias").click(function(){
+    $(".Ação").show();
+    $(".Aventura").show();
+    $(".Ficção").show();
+    $(".Fantasia").show();
+    $(".Esportes").show();
+    $(".Corrida").show();
+    $(".RPG").show();
+    $(".Horror").show();
+})
+$("#Ação").click(function(){
+    $(".Ação").show();
+    $(".Aventura").hide();
+    $(".Ficção").hide();
+    $(".Fantasia").hide();
+    $(".Esportes").hide();
+    $(".Corrida").hide();
+    $(".RPG").hide();
+    $(".Horror").hide();
+})
+$("#Aventura").click(function(){
+    $(".Ação").hide();
+    $(".Aventura").show();
+    $(".Ficção").hide();
+    $(".Fantasia").hide();
+    $(".Esportes").hide();
+    $(".Corrida").hide();
+    $(".RPG").hide();
+    $(".Horror").hide();
+})
+$("#Ficção").click(function(){
+    $(".Ação").hide();
+    $(".Aventura").hide();
+    $(".Ficção").show();
+    $(".Fantasia").hide();
+    $(".Esportes").hide();
+    $(".Corrida").hide();
+    $(".RPG").hide();
+    $(".Horror").hide();
+})
+$("#Fantasia").click(function(){
+    $(".Ação").hide();
+    $(".Aventura").hide();
+    $(".Ficção").hide();
+    $(".Fantasia").show();
+    $(".Esportes").hide();
+    $(".Corrida").hide();
+    $(".RPG").hide();
+    $(".Horror").hide();
+})
+$("#Esportes").click(function(){
+    $(".Ação").hide();
+    $(".Aventura").hide();
+    $(".Ficção").hide();
+    $(".Fantasia").hide();
+    $(".Esportes").show();
+    $(".Corrida").hide();
+    $(".RPG").hide();
+    $(".Horror").hide();
+})
+$("#Corrida").click(function(){
+    $(".Ação").hide();
+    $(".Aventura").hide();
+    $(".Ficção").hide();
+    $(".Fantasia").hide();
+    $(".Esportes").hide();
+    $(".Corrida").show();
+    $(".RPG").hide();
+    $(".Horror").hide();
+})
+$("#RPG").click(function(){
+    $(".Ação").hide();
+    $(".Aventura").hide();
+    $(".Ficção").hide();
+    $(".Fantasia").hide();
+    $(".Esportes").hide();
+    $(".Corrida").hide();
+    $(".RPG").show();
+    $(".Horror").hide();
+})
+$("#Horror").click(function(){
+    $(".Ação").hide();
+    $(".Aventura").hide();
+    $(".Ficção").hide();
+    $(".Fantasia").hide();
+    $(".Esportes").hide();
+    $(".Corrida").hide();
+    $(".RPG").hide();
+    $(".Horror").show();
+})
