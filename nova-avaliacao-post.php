@@ -15,7 +15,7 @@
     move_uploaded_file($arquivo, $destino);
 
     // Conexão com BD
-    $conexao = new PDO('mysql:host=127.0.0.1;dbname=dw','root','88124014Fhn!');
+    $conexao = new PDO('mysql:host=127.0.0.1;dbname=dw','root','master!');
 
     // Habilitar exceptions em tela
     $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

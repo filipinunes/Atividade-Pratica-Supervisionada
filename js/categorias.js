@@ -1,3 +1,9 @@
+const categories = [".Ação", ".Aventura", ".Ficção", ".Fantasia", ".Esportes", ".Corrida", ".RPG", ".Horror"]
+
+for (i=0; i<categories.length; i++){
+    console.log(categories[i])
+}
+
 $("#Categorias").click(function(){
     $(".Ação").show();
     $(".Aventura").show();

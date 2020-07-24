@@ -3,7 +3,7 @@
     $id = $_GET['id'];
 
     // Conexão com BD
-    $conexao = new PDO('mysql:host=127.0.0.1;dbname=dw','root','88124014Fhn!');
+    $conexao = new PDO('mysql:host=127.0.0.1;dbname=dw','root','master!');
     $stmp = $conexao->prepare("SELECT p.id, p.nome, p.nota, p.horas, c.nome as categoria, p.avaliacao, p.imagem 
                               FROM dw.avaliacoes as p, dw.categoria_games as c 
                               WHERE p.id_categoria_games = c.id

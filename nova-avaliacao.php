@@ -1,6 +1,6 @@
 <?php
   // Conexão com BD
-  $conexao = new PDO('mysql:host=127.0.0.1;dbname=dw','root','88124014Fhn!');
+  $conexao = new PDO('mysql:host=127.0.0.1;dbname=dw','root','master!');
 
   // Instrução para ser executada no BD
   $query = "SELECT * FROM categoria_games;";
